@@ -1,14 +1,16 @@
 {
-  "name": "ms",
+  "name": "pika-ms",
   "version": "2.0.0",
-  "description": "Tiny milisecond conversion utility",
-  "repository": "zeit/ms",
-  "main": "./index",
+  "description": "An ES6-module fork of ms, a tiny milisecond conversion utility",
+  "repository": "FredKSchott/pika-ms",
+  "module": "index.js",
+  "keyword": [
+    "pika-package"
+  ],
   "files": [
     "index.js"
   ],
   "scripts": {
-    "precommit": "lint-staged",
     "lint": "eslint lib/* bin/*",
     "test": "mocha tests.js"
   },
