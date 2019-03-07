@@ -1,3 +1,6 @@
+> `@esm/ms` is an ES6 module fork of `ms`.  It matches the original `ms` module described below, except that it is loaded via module `import` instead of Node's commonjs `require()`. See the updated code snippets below for the new import syntax.
+
+
 # ms
 
 [![Build Status](https://travis-ci.org/zeit/ms.svg?branch=master)](https://travis-ci.org/zeit/ms)
@@ -8,6 +11,8 @@ Use this package to easily convert various time formats to milliseconds.
 ## Examples
 
 ```js
+import ms from 'ms';
+
 ms('2 days')  // 172800000
 ms('1d')      // 86400000
 ms('10h')     // 36000000
