@@ -1,6 +1,6 @@
 {
   "name": "@esm/ms",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "An ES6-module fork of ms, a tiny milisecond conversion utility",
   "repository": "FredKSchott/pika-ms",
   "module": "index.js",
